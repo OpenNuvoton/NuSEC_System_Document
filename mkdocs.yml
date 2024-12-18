@@ -1,0 +1,37 @@
+site_name: 'NuSEC Documentation'
+site_url: https://phchen9.github.io/nusec-docs
+nav:
+  - Home: 'index.md'
+  - About:
+    - Introduction: 'about/introduction.md'
+    - 'about/components.md'
+    - 'about/flow.md'
+  - Setup:
+    - 'In this section': 'setup/in-this-section.md'
+    - 'setup/cloud-server-setup.md'
+    - 'setup/nusec-py-setup.md'
+    - 'setup/devauth-setup.md'
+    - 'setup/freertos-setup.md'
+    - 'setup/devauth-mcu-setup.md'
+  - 'Getting Started':
+    - 'getting-started/quick-start.md'
+  - 'Sequence Diagrams':
+    - 'sequence-diagrams/prepare-programmer.md'
+    - 'sequence-diagrams/export-package.md'
+    - 'sequence-diagrams/import-package.md'
+    - 'sequence-diagrams/device-authentication-provisioning.md'
+    - 'sequence-diagrams/firmware-provisioning.md'
+    - 'sequence-diagrams/firmware-upgrade.md'
+theme:
+  name: material
+  features:
+    - navigation.top
+plugins: []
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
