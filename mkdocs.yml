@@ -1,5 +1,5 @@
 site_name: 'NuSEC Documentation'
-site_url: https://phchen9.github.io/nusec-docs
+site_url: https://opennuvoton.github.io/NuSEC_System_Document
 nav:
   - Home: 'index.md'
   - About:
